@@ -17,7 +17,7 @@ body:
   - type: textarea
     id: reproducir
     attributes:
-      label: Pasos para reproducir el comportamiento:
+      label: Pasos para reproducir el comportamiento
       description:  |
                    1. Ir a '...'
                    2. Haga clic en '....'
