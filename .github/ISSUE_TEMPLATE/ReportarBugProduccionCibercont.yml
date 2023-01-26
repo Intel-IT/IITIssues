@@ -53,6 +53,16 @@ body:
                   - Versión [p. ej. 22]
     validations:
       required: false  
+      
+      
+ - type: input
+    id: ContextoadicionaL
+    attributes:
+      label: Contexto adicionaL
+      description: Agregue cualquier otro contexto sobre el problema aquí.
+    validations:
+      required: false    
+      
      
      
   - type: input
