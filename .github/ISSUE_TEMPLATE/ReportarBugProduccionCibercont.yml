@@ -24,8 +24,8 @@ body:
                    2. Haga clic en '....'
                    3. Desplácese hacia abajo hasta '....'
                    4. Ver error
-    validations: 
-     required: true        
+     validations: 
+       required: true        
   - type: textarea
     id: Comportamientoesperado
     attributes:
