@@ -2,8 +2,6 @@ name: Reportar Bug Produccion
 description: Formulario  Reportar Bug en produccion
 title: "BUG#PRODUCCION#  "
 labels: ["bug"]
-assignees:
-  - octocat
 body: 
   - type: textarea
     id: descripcion
