@@ -74,26 +74,21 @@ body:
     validations:
       required: true    
       
+
       
-  - type: textarea
-    id: what-happened
-    attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
-    validations:
-      required: true
+      
   - type: dropdown
-    id: version
+    id: PersonaDeContacto
     attributes:
-      label: Version
-      description: What version of our software are you running?
+      label: Persona de contacto
+      description: Quien reporta el Bug
       options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
+        - TEO
+        - FANNY
     validations:
       required: true
+      
+      
   - type: dropdown
     id: browsers
     attributes:
