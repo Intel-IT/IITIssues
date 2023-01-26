@@ -28,17 +28,42 @@ body:
     validations: 
      required: true   
      
-  - type: input
+  - type: textarea
     id: Comportamientoesperado
     attributes:
       label: Comportamiento esperado
       description: Una descripción clara y concisa de lo que esperaba que sucediera.
     validations:
       required: false  
+      
+      
+        - type: textarea
+    id: Comportamientoesperado
+    attributes:
+      label: Comportamiento esperado
+      description: Una descripción clara y concisa de lo que esperaba que sucediera.
+    validations:
+      required: false  
+      
+      
+  - type: textarea
+    id: Informacionadicional
+    attributes:
+      label: Informacion adicional
+      description: |
+                  - SO: [p. ej. iOS]
+                  - Navegador [p. ej. cromo, safari]
+                  - Versión [p. ej. 22]
+                  - Dispositivo: [p. ej. iphone 6]
+                  - SO: [p. ej. iOS8.1]
+                  - Navegador [p. ej. navegador de valores, safari]
+                  - Versión [p. ej. 22]
+    validations:
+      required: false  
      
      
   - type: input
-    id: contact
+    id: contactaaa
     attributes:
       label: Contact Details
       description: How can we get in touch with you if we need more info?
