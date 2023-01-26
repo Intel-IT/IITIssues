@@ -3,6 +3,33 @@ description: Formulario  Reportar Bug en produccion
 title: "BUG#PRODUCCION#  "
 labels: ["bug"]
 body: 
+  - type: dropdown
+    id: PersonaDeContacto
+    attributes:
+      label: Persona de contacto
+      multiple: false
+      description: Quien reporta el Bug
+      options:
+        - TEO
+        - EPIFANIA
+    validations:
+      required: true
+  - type: dropdown
+    id: Software
+    attributes:
+      label: Software
+      multiple: false
+      options:
+        - FACTURADOR WEB
+        - PASAJEROS WEB
+        - ENCOMIENDAS WEB
+        - FACTURADOR ESCRITORIO
+        - COLEGIOS ESCRITORIO
+        - RESTAURANTES ESCRITORIO
+        - PASAJEROS ESCRITORIO
+        - ENCOMIENDAS ESCRITORIO
+    validations:
+      required: true      
   - type: textarea
     id: descripcion
     attributes:
@@ -48,31 +75,3 @@ body:
       description: Agregue cualquier otro contexto sobre el problema aquí.
     validations:
       required: false
-  - type: dropdown
-    id: PersonaDeContacto
-    attributes:
-      label: Persona de contacto
-      multiple: false
-      description: Quien reporta el Bug
-      options:
-        - TEO
-        - EPIFANIA
-    validations:
-      required: true
-  - type: dropdown
-    id: Software
-    attributes:
-      label: Software
-      multiple: false
-      options:
-        - FACTURADOR WEB
-        - PASAJEROS WEB
-        - ENCOMIENDAS WEB
-        - FACTURADOR ESCRITORIO
-        - COLEGIOS ESCRITORIO
-        - RESTAURANTES ESCRITORIO
-        - PASAJEROS ESCRITORIO
-        - ENCOMIENDAS ESCRITORIO
-    validations:
-      required: true
-
