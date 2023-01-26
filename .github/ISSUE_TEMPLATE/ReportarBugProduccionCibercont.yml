@@ -37,14 +37,7 @@ body:
       required: false  
       
       
- - type: textarea
-    id: Comportamientoesperadoa
-    attributes:
-      label: Comportamiento esperado
-      description: Una descripción clara y concisa de lo que esperaba que sucediera.
-    validations:
-      required: false  
-      
+
       
   - type: textarea
     id: Informacionadicional
