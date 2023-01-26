@@ -12,7 +12,9 @@ body:
   - type: textarea
     id: descripcion
     attributes:
-      label: Una descripción clara y concisa de lo que es el error.,
+      label: Una descripción clara y concisa de lo que es el error.
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
     validations: true 
   - type: input
     id: contact
