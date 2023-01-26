@@ -15,6 +15,22 @@ body:
         - EPIFANIA
     validations:
       required: true
+      
+  - type: dropdown
+    id: Personaasignada
+    attributes:
+      label: Persona asignada
+      multiple: false
+      description: A quien esta asignado el bug
+      options:
+        - MARI
+        - LUIS
+        - CRIS
+        - DANIEL
+        - DAVID
+     validations:
+      required: false
+      
   - type: dropdown
     id: Software
     attributes:
