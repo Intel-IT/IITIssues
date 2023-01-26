@@ -13,8 +13,9 @@ body:
     id: descripcion
     attributes:
       label: Una descripción clara y concisa de lo que es el error.
-      validations: 
-        required: true           
+      options:
+        validations: 
+          required: true           
   - type: textarea
     id: reproducir
     attributes:
