@@ -64,16 +64,7 @@ body:
       required: false    
       
      
-     
-  - type: input
-    id: contactaaa
-    attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
-    validations:
-      required: true    
-      
+
 
       
       
@@ -90,14 +81,18 @@ body:
       
       
   - type: dropdown
-    id: browsers
+    id: Software
     attributes:
-      label: What browsers are you seeing the problem on?
+      label: Software
       multiple: true
       options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
+        - Facturador web
+        - Pasajeros web
+        - Encomiendas web
+        - Facturador escritorio
+        - Colegios escritorio
+        - Restaurantes escritorio
+        - Pasajeros escritorio
+        - Encomiendas escritorio
         
         
