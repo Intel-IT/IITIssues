@@ -4,11 +4,7 @@ title: "BUG#PRODUCCION#  "
 labels: ["bug"]
 assignees:
   - octocat
-body:
-  - type: markdown
-    attributes:
-      value: |
-        Describa el error     
+body: 
   - type: textarea
     id: descripcion
     attributes:
