@@ -29,13 +29,12 @@ body:
      required: true   
      
   - type: input
-    id: contactzz
+    id: Comportamientoesperado
     attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
+      label: Comportamiento esperado
+      description: Una descripción clara y concisa de lo que esperaba que sucediera.
     validations:
-      required: true   
+      required: false  
      
      
   - type: input
