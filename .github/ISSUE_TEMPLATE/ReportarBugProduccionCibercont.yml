@@ -15,6 +15,17 @@ body:
       label: Una descripción clara y concisa de lo que es el error.
     validations: 
       required: true    
+ - type: textarea
+    id: reproducir
+    attributes:
+      label: Pasos para reproducir el comportamiento
+      description:  |
+                   1. Ir a '...'
+                   2. Haga clic en '....'
+                   3. Desplácese hacia abajo hasta '....'
+                   4. Ver error
+    validations: 
+     required: true    
   - type: input
     id: contact
     attributes:
