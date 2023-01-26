@@ -72,6 +72,7 @@ body:
     id: PersonaDeContacto
     attributes:
       label: Persona de contacto
+      multiple: false
       description: Quien reporta el Bug
       options:
         - TEO
@@ -84,7 +85,7 @@ body:
     id: Software
     attributes:
       label: Software
-      multiple: true
+      multiple: false
       options:
         - Facturador web
         - Pasajeros web
