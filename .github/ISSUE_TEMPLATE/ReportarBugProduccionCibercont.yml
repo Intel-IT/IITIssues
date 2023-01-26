@@ -3,7 +3,7 @@ description: Formulario  Reportar Bug en produccion
 title: "BUG#PRODUCCION#  "
 labels: ["bug"]
 body: 
-- type: dropdown
+  - type: dropdown
     id: Personaasignada
     attributes:
       label: Persona asignada
@@ -15,7 +15,7 @@ body:
         - CRIS
         - DANIEL
         - DAVID
-   validations:
+     validations:
       required: false
   - type: dropdown
     id: PersonaDeContacto
