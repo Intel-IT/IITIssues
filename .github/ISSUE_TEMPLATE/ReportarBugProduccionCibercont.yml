@@ -13,8 +13,8 @@ body:
     id: descripcion
     attributes:
       label: Una descripción clara y concisa de lo que es el error.
-    validations: 
-      required: true           
+      validations: 
+        required: true           
   - type: textarea
     id: reproducir
     attributes:
@@ -71,11 +71,12 @@ body:
       label: Software
       multiple: false
       options:
-        - Facturador web
-        - Pasajeros web
-        - Encomiendas web
-        - Facturador escritorio
-        - Colegios escritorio
-        - Restaurantes escritorio
-        - Pasajeros escritorio
-        - Encomiendas escritorio  
+        - FACTURADOR WEB
+        - PASAJEROS WEB
+        - ENCOMIENDAS WEB
+        - FACTURADOR ESCRITORIO
+        - COLEGIOS ESCRITORIO
+        - RESTAURANTES ESCRITORIO
+        - PASAJEROS ESCRITORIO
+        - ENCOMIENDAS ESCRITORIO
+
