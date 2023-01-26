@@ -14,8 +14,7 @@ body:
     attributes:
       label: Una descripción clara y concisa de lo que es el error.
     validations: 
-      required: true     
-      
+      required: true           
   - type: textarea
     id: reproducir
     attributes:
@@ -26,19 +25,14 @@ body:
                    3. Desplácese hacia abajo hasta '....'
                    4. Ver error
     validations: 
-     required: true   
-     
+     required: true        
   - type: textarea
     id: Comportamientoesperado
     attributes:
       label: Comportamiento esperado
       description: Una descripción clara y concisa de lo que esperaba que sucediera.
     validations:
-      required: false  
-      
-      
-
-      
+      required: false     
   - type: textarea
     id: Informacionadicional
     attributes:
@@ -52,22 +46,14 @@ body:
                   - Navegador [p. ej. navegador de valores, safari]
                   - Versión [p. ej. 22]
     validations:
-      required: false  
-      
-      
+      required: false       
   - type: input
     id: ContextoadicionaL
     attributes:
       label: Contexto adicionaL
       description: Agregue cualquier otro contexto sobre el problema aquí.
     validations:
-      required: false    
-      
-     
-
-
-      
-      
+      required: false   
   - type: dropdown
     id: PersonaDeContacto
     attributes:
@@ -78,9 +64,7 @@ body:
         - TEO
         - FANNY
     validations:
-      required: true
-      
-      
+      required: true     
   - type: dropdown
     id: Software
     attributes:
@@ -94,6 +78,4 @@ body:
         - Colegios escritorio
         - Restaurantes escritorio
         - Pasajeros escritorio
-        - Encomiendas escritorio
-        
-        
+        - Encomiendas escritorio  
