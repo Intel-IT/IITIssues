@@ -8,12 +8,11 @@ body:
   - type: markdown
     attributes:
       value: |
-        Describa el error        
-  - type: input
+        Describa el error     
+  - type: textarea
     id: descripcion
     attributes:
       label: Una descripción clara y concisa de lo que es el error.
-      description: Una descripción clara y concisa de lo que es el error.    
     validations:
   - type: input
     id: contact
