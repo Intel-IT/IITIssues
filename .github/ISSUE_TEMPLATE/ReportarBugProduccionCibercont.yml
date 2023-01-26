@@ -28,7 +28,7 @@ body:
         - CRIS
         - DANIEL
         - DAVID
-     validations:
+    validations:
       required: false
       
   - type: dropdown
