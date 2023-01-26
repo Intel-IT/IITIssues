@@ -3,6 +3,20 @@ description: Formulario  Reportar Bug en produccion
 title: "BUG#PRODUCCION#  "
 labels: ["bug"]
 body: 
+- type: dropdown
+    id: Personaasignada
+    attributes:
+      label: Persona asignada
+      multiple: false
+      description: A quien esta asignado el bug
+      options:
+        - MARI
+        - LUIS
+        - CRIS
+        - DANIEL
+        - DAVID
+    validations:
+      required: false
   - type: dropdown
     id: PersonaDeContacto
     attributes:
