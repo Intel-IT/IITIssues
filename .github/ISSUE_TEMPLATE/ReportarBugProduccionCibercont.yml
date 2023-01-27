@@ -25,7 +25,7 @@ body:
     id: Personaasignada
     attributes:
       label: Persona asignada
-      multiple: false
+      multiple: true
       description: A quien esta asignado el bug
       options:
         - MARI
