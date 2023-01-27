@@ -76,7 +76,7 @@ body:
     id: Informacionadicional
     attributes:
       label: Informacion adicional
-      description: |
+      placeholder: |
                   - SO: [p. ej. iOS]
                   - Navegador [p. ej. cromo, safari]
                   - Versión [p. ej. 22]
