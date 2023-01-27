@@ -50,7 +50,8 @@ body:
   - type: textarea
     id: descripcion
     attributes:
-      label: Una descripción clara y concisa de lo que es el error.    
+      label: Descripción.
+      placeholder:  Una descripción clara y concisa de lo que es el error. 
     validations: 
       required: true
   - type: textarea
@@ -67,8 +68,8 @@ body:
   - type: textarea
     id: Comportamientoesperado
     attributes:
-      label: Comportamiento esperado
-      description: Una descripción clara y concisa de lo que esperaba que sucediera.
+      label: Comportamiento esperado      
+      placeholder: Una descripción clara y concisa de lo que esperaba que sucediera.     
     validations:
       required: false
   - type: textarea
