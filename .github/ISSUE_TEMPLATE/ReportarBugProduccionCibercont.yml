@@ -90,6 +90,6 @@ body:
     id: ContextoadicionaL
     attributes:
       label: Contexto adicionaL
-      description: Agregue cualquier otro contexto sobre el problema aquí.
+      placeholder: Agregue cualquier otro contexto sobre el problema aquí.
     validations:
       required: false
