@@ -102,8 +102,5 @@ body:
   - type: integer
     id: AAAA
     autoincrement: true
-    attributes:
-      label: Contexto adicionaL
-      placeholder: Agregue cualquier otro contexto sobre el problema aquí.
     validations:
       required: false
