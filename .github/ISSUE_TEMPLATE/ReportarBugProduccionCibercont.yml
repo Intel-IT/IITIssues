@@ -42,7 +42,7 @@ body:
       label: Software
       multiple: false
       options:
-        - FACTURADOR WEB (default)
+        - FACTURADOR WEB
         - PASAJEROS WEB
         - ENCOMIENDAS WEB
         - FACTURADOR ESCRITORIO
