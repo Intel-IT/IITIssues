@@ -99,8 +99,3 @@ body:
     validations:
       required: false
       
-  - type: integer
-    id: AAAA
-    autoincrement: true
-    validations:
-      required: false
