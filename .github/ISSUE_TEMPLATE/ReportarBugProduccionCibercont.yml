@@ -8,7 +8,8 @@ body:
     id: PersonaDeContacto
     attributes:
       label: Persona de contacto
-      multiple: true      
+      multiple: true
+      description: Quien reporta el Bug
       options:
         - TEO
         - EPIFANIA
@@ -97,11 +98,5 @@ body:
       label: Contexto adicionaL
       placeholder: Agregue cualquier otro contexto sobre el problema aquí.
     validations:
-      required: false      
-  - type: date
-    id: ContextoadicionaLasd
-    date: "`r format(Sys.time(), '%d %B, %Y')`"
-      
-      
-      
+      required: false
       
