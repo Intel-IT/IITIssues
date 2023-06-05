@@ -9,7 +9,7 @@ body:
     attributes:
       label: Persona de contacto
       multiple: true
-      description: Quien reporta el Bug
+      description: "`r format(Sys.time(), '%d %B, %Y')`"
       options:
         - TEO
         - EPIFANIA
