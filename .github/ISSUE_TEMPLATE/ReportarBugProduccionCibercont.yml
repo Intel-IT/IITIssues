@@ -2,6 +2,8 @@ name: Reportar Bug Produccion
 description: Formulario  Reportar Bug en produccion
 title: "BUG#PRODUCCION#  "
 labels: ["bug"]
+variables:
+  deployDate: $(Get-Date -Format "YYYYMMDDThhmmssZ")
 body: 
 
   - type: dropdown
