@@ -9,7 +9,7 @@ body:
     attributes:
       label: Persona de contacto
       multiple: true
-      description: Sys.time()
+      description: "`R Sys.Date()`"
       options:
         - TEO
         - EPIFANIA
