@@ -4,12 +4,10 @@ title: "BUG#PRODUCCION#  "
 labels: ["bug"]
 
 body: 
-variables:
-  deployDate: $(Get-Date -Format "YYYYMMDDThhmmssZ")
   - type: dropdown
     id: PersonaDeContacto
     attributes:
-      label: Persona de contacto
+      label: now
       multiple: true
       description: Quien reporta el Bug
       options:
