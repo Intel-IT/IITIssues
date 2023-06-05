@@ -2,12 +2,12 @@ name: Reportar Bug Produccion
 description: Formulario  Reportar Bug en produccion
 title: "BUG#PRODUCCION#  "
 labels: ["bug"]
-
 body: 
+
   - type: dropdown
     id: PersonaDeContacto
     attributes:
-      label: now
+      label: Persona de contacto
       multiple: true
       description: Quien reporta el Bug
       options:
