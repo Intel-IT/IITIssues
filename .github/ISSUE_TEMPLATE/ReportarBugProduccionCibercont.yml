@@ -8,8 +8,7 @@ body:
     id: PersonaDeContacto
     attributes:
       label: Persona de contacto
-      multiple: true
-      date: "`r format(Sys.time(), '%d %B, %Y')`"
+      multiple: true      
       options:
         - TEO
         - EPIFANIA
@@ -98,5 +97,11 @@ body:
       label: Contexto adicionaL
       placeholder: Agregue cualquier otro contexto sobre el problema aquí.
     validations:
-      required: false
+      required: false      
+  - type: date
+    id: ContextoadicionaLasd
+    date: "`r format(Sys.time(), '%d %B, %Y')`"
+      
+      
+      
       
