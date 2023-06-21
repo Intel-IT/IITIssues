@@ -1,13 +1,13 @@
 name: ❌ Informe de errores
 description: Formulario para Reportar 💀 Bugs en produccion 
-title: "BUG#PRODUCCION"
+title: "BUG#PRODUCCION" "{{date}}"
 labels: ["bug: production"]
 body: 
 
   - type: dropdown
     id: Software
     attributes:
-      label: Software "#{{date}}"
+      label: Software 
       multiple: false
       options:		
       - Contabilidad Escritorio
