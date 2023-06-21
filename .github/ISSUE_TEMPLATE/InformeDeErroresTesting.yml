@@ -1,0 +1,47 @@
+name: ❗ Informe de errores en Testing
+description: Formulario para Reportar 💀 Bugs en produccion  
+title: "BUG#REVISION#"
+labels: ["bug revision"]
+body: 
+      
+  - type: textarea
+    id: descripcion
+    attributes:
+      label: Descripción.
+      placeholder:  Una descripción clara y concisa de lo que es el error. 
+    validations: 
+      required: true
+      
+  - type: textarea
+    id: reproducir
+    attributes:
+      label: Pasos para reproducir el comportamiento
+      placeholder:  |
+                   1. Ir a '...'
+                   2. Haga clic en '....'
+                   3. Desplácese hacia abajo hasta '....'
+                   4. Ver error
+    validations: 
+      required: false
+      
+  - type: textarea
+    id: Comportamientoesperado
+    attributes:
+      label: Comportamiento esperado      
+      placeholder: Una descripción clara y concisa de lo que esperaba que sucediera.     
+    validations:
+      required: false
+      
+  - type: textarea
+    id: Informacionadicional
+    attributes:
+      label: Informacion adicional
+      placeholder: | 
+                  - Por ejemplo:
+                  - La base de datos que se usó para hacer las pruebas            
+                  - Navegador: [p. ej. cromo, safari]                  
+                  - Dispositivo: [p. ej. samsung 6]              
+    validations:
+      required: false
+      
+      
