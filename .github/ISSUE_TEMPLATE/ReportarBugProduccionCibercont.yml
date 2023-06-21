@@ -39,14 +39,14 @@ body:
                    3. Desplácese hacia abajo hasta '....'
                    4. Ver error
     validations: 
-      required: false
+      required: true
   - type: textarea
     id: Comportamientoesperado
     attributes:
       label: Comportamiento esperado      
       placeholder: Una descripción clara y concisa de lo que esperaba que sucediera.     
     validations:
-      required: false
+      required: true
   - type: textarea
     id: Informacionadicional
     attributes:
