@@ -46,43 +46,12 @@ body:
     validations:
       required: true
 
-  - type: textarea
-    id: Screenshots
-    attributes:
-      label: Screenshots - Media      
-      placeholder: Agregue capturas de pantalla o videos para ayudar a explicar su problema.
-    validations:
-      required: false
 
-
-  - type: input
-    id: backup
-    attributes:
-      label: Copia de la base de datos
-      placeholder: Agregue una copia de la base de datos.
-    validations:
-      required: false
-
-      
-  - type: textarea
-    id: Informacionadicional
-    attributes:
-      label: Informacion adicional
-      placeholder: |
-                  - SO: [p. ej. iOS]
-                  - Navegador [p. ej. cromo, safari]
-                  - Versión [p. ej. 22]
-                  - Dispositivo: [p. ej. iphone 6]
-                  - SO: [p. ej. iOS8.1]
-                  - Navegador [p. ej. navegador de valores, safari]
-                  - Versión [p. ej. 22]
-    validations:
-      required: false
   - type: input
     id: ContextoadicionaL
     attributes:
       label: Contexto adicionaL
-      placeholder: Agregue cualquier otro contexto sobre el problema aquí.
+      placeholder: Agregue cualquier otro contexto aquí.
     validations:
       required: false
       
