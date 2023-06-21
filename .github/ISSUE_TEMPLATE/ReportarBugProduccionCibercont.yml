@@ -1,6 +1,6 @@
 name: ❌ Informe de errores 
 description: Formulario para Reportar 💀 Bugs en produccion
-title: "BUG#PRODUCCION# <$today:MM/dd/yyyy>"
+title: "<$today:MM/dd/yyyy>"
 labels: ["bug: production"]
 body: 
 
