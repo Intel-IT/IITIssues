@@ -47,7 +47,7 @@ body:
       required: true
 
 
-  - type: input
+  - type: textarea
     id: ContextoadicionaL
     attributes:
       label: Contexto adicionaL
