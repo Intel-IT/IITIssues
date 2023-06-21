@@ -1,5 +1,5 @@
 name: 🆕 Sugiera una mejora para este proyecto
-description: Formulario para sugerir 🔀 una idea, una mejora,Mejorar una característica existente o una posible nueva función para este proyecto.
+description: Formulario para sugerir 🔀 una idea, una mejora, mejorar una característica existente o una posible nueva función para este proyecto.
 title: "MEJORA#"
 labels: ["enhancement pending review"]
 body: 
@@ -44,7 +44,7 @@ body:
       label: Posible Implementación
       placeholder: sugiera una idea para implementar la adición o el cambio.
     validations:
-      required: true
+      required: false
 
 
   - type: textarea
