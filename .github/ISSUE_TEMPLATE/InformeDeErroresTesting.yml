@@ -31,6 +31,14 @@ body:
       placeholder: Una descripción clara y concisa de lo que esperaba que sucediera.     
     validations:
       required: true
+
+  - type: textarea
+    id: Screenshots
+    attributes:
+      label: Screenshots - Media      
+      placeholder: Agregue capturas de pantalla o videos para ayudar a explicar su problema.
+    validations:
+      required: false
       
   - type: textarea
     id: Informacionadicional
