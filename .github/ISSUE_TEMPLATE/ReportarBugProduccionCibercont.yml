@@ -58,9 +58,9 @@ body:
 
 
   - type: input
-    id: backups
+    id: backup
     attributes:
-      label: backups
+      label: Copia de la base de datos
       placeholder: Agregue una copia de la base de datos.
     validations:
       required: false
