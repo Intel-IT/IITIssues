@@ -87,4 +87,7 @@ body:
       placeholder: Agregue cualquier otro contexto sobre el problema aquí.
     validations:
       required: false
-      
+  date:
+      type: string
+      format: date
+      example: "2016-08-06"
