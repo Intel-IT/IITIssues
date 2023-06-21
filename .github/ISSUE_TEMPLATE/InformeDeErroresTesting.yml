@@ -1,5 +1,5 @@
 name: ❗ Informe de errores en Testing
-description: Formulario para Reportar 💀 pruebas incorrectas o faltantes.  
+description: Formulario para Reportar pruebas incorrectas o faltantes.  
 title: "BUG#TEST#"
 labels: ["bug; test"]
 body: 
