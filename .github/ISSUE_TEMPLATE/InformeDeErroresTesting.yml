@@ -40,7 +40,7 @@ body:
     validations:
       required: false
 
- - type: input
+  - type: input
     id: NombreDeLaBaseDeDatos
     attributes:
       label: Nombre de la base de datos
