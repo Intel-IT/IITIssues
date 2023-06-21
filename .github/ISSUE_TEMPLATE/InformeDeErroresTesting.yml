@@ -39,6 +39,15 @@ body:
       placeholder: Agregue capturas de pantalla o videos para ayudar a explicar su problema.
     validations:
       required: false
+
+ - type: input
+    id: NombreDeLaBaseDeDatos
+    attributes:
+      label: Nombre de la base de datos
+      placeholder: Agregue el nombre de la base de datos donde se realizo el Test.
+    validations:
+      required: false
+
       
   - type: textarea
     id: Informacionadicional
