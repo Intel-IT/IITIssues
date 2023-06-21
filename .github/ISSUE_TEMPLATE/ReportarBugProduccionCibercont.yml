@@ -1,6 +1,6 @@
 name: ❌ Informe de errores 
 description: Formulario para Reportar 💀 Bugs en produccion
-title: "BUG#PRODUCCION#" "`r format(Sys.time(), '%d %B, %Y')`"
+title: "`r format(Sys.time(), '%d %B, %Y')`"
 labels: ["bug: production"]
 body: 
 
