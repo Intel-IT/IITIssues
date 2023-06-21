@@ -1,0 +1,64 @@
+name: 🆕 Sugiera una mejora para este proyectoasd
+description: Formulario para sugerir 🔀 una idea, una mejora, mejorar una característica existente o una posible nueva función para este proyecto.
+title: "MEJORA#"
+labels: ["enhancement pending review"]
+body: 
+
+  - type: dropdown
+    id: Software
+    attributes:
+      label: Software 
+      multiple: false
+      options:		
+      - Contabilidad Escritorio
+      - Facturador Escritorio
+      - Colegios Escritorio
+      - Restaurantes Escritorio
+      - Pasajeros Escritorio
+      - Encomiendas Escritorio        
+      - Facturador Web
+      - Pasajeros Web
+      - Encomiendas Web
+                
+    validations:
+      required: true      
+   - type: textarea
+    id: descripcions
+    attributes:
+      label: Descripción.
+      placeholder:  Proporcione una descripción detallada del cambio o adición que está proponiendo.
+    validations: 
+      required: true
+  - type: textarea
+    id: descripcion
+    attributes:
+      label: Descripción.
+      placeholder:  Proporcione una descripción detallada del cambio o adición que está proponiendo.
+    validations: 
+      required: true
+  - type: textarea
+    id: contexto
+    attributes:
+      label: Contexto
+      placeholder:  |
+                   - ¿Por qué es importante este cambio para el cliente CIBERCONT o usted?.
+                   - ¿Cómo puede beneficiar a otros clientes?.
+    validations: 
+      required: true
+  - type: textarea
+    id: posibleImplementacion
+    attributes:
+      label: Posible Implementación
+      placeholder: sugiera una idea para implementar la adición o el cambio.
+    validations:
+      required: false
+
+
+  - type: textarea
+    id: ContextoadicionaL
+    attributes:
+      label: Contexto adicionaL
+      placeholder: Agregue cualquier otro contexto aquí.
+    validations:
+      required: false
+      
