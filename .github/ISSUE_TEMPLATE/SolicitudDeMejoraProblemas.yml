@@ -23,10 +23,10 @@ body:
     validations:
       required: true      
   - type: textarea
-    id: descripcions
+    id: error
     attributes:
-      label: Descripción.
-      placeholder:  Proporcione una descripción detallada del cambio o adición que está proponiendo.
+      label: ¿Su solicitud de mejora está relacionada con un problema? Por favor describa el problema.
+      placeholder:  Una descripción clara y concisa de cuál es el problema. Ejem. Siempre me siento frustrado cuando [...] 
     validations: 
       required: true
   - type: textarea
