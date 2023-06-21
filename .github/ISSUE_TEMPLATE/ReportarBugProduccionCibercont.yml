@@ -88,7 +88,4 @@ body:
     validations:
       required: false
   
- - type: string
-    id: Contextoadicionasdasdasd
-      format: date
-      example: "2016-08-06"
+
