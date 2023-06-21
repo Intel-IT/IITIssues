@@ -54,8 +54,7 @@ body:
     attributes:
       label: Informacion adicional
       placeholder: | 
-                  - Por ejemplo:
-                  - La base de datos que se usó para hacer las pruebas            
+                  - Por ejemplo:        
                   - Navegador: [p. ej. cromo, safari]                  
                   - Dispositivo: [p. ej. samsung 6]              
     validations:
