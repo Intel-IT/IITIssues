@@ -81,6 +81,8 @@ body:
     validations:
       required: false
   - type: input
+    format: date
+    example: "2020-10-15"
     id: ContextoadicionaL
     attributes:
       label: Contexto adicionaL
