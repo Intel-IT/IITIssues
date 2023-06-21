@@ -9,15 +9,16 @@ body:
     attributes:
       label: Software
       multiple: false
-      options:
-        - FACTURADOR WEB
-        - PASAJEROS WEB
-        - ENCOMIENDAS WEB
-        - FACTURADOR ESCRITORIO
-        - COLEGIOS ESCRITORIO
-        - RESTAURANTES ESCRITORIO
-        - PASAJEROS ESCRITORIO
-        - ENCOMIENDAS ESCRITORIO
+      options:		
+        - Contabilidad Escritorio
+  		  - Facturador Escritorio
+        - Colegios Escritorio
+        - Restaurantes Escritorio
+        - Pasajeros Escritorio
+        - Encomiendas Escritorio        
+        - Facturador Web
+        - Pasajeros Web
+        - Encomiendas Web
     validations:
       required: true      
   - type: textarea
