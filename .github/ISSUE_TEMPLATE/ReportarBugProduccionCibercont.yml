@@ -40,7 +40,7 @@ body:
                    4. Ver error
     validations: 
       required: true
-  - type: text
+  - type: textarea
     id: Comportamientoesperado
     attributes:
       label: Comportamiento esperado      
@@ -53,6 +53,14 @@ body:
     attributes:
       label: Screenshots - Media      
       placeholder: Agregue capturas de pantalla o videos para ayudar a explicar su problema.
+    validations:
+      required: false
+
+ - type: input
+    id: backups
+    attributes:
+      label: backups
+      placeholder: Agregue una copia de la base de datos. 
     validations:
       required: false
 
