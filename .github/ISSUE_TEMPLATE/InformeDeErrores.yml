@@ -1,5 +1,5 @@
 name: ❌ Informe de errores
-description: Formulario para Reportar 💀 Bugs en produccion 
+description: Formulario para Reportar Bugs en produccion 
 title: "BUG#PRODUCCION"
 labels: ["bug: production"]
 body: 
