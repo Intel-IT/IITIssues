@@ -1,7 +1,7 @@
 name: 🆕 Sugiera una mejora para este proyecto
 description: Formulario para sugerir 🔀 una idea, una mejora,Mejorar una característica existente o una posible nueva función para este proyecto.
-title: "BUG#PRODUCCION"
-labels: ["bug: production"]
+title: "MEJORA#"
+labels: ["enhancement pending review"]
 body: 
 
   - type: dropdown
@@ -26,18 +26,16 @@ body:
     id: descripcion
     attributes:
       label: Descripción.
-      placeholder:  Una descripción clara y concisa de lo que es el error. 
+      placeholder:  Proporcione una descripción detallada del cambio o adición que está proponiendo 
     validations: 
       required: true
   - type: textarea
-    id: reproducir
+    id: contexto
     attributes:
-      label: Pasos para reproducir el comportamiento
+      label: Contexto
       placeholder:  |
-                   1. Ir a '...'
-                   2. Haga clic en '....'
-                   3. Desplácese hacia abajo hasta '....'
-                   4. Ver error
+                   - ¿Por qué es importante este cambio para el cliente CIBERCONT o usted?
+                   - ¿Cómo puede beneficiar a otros clientes?
     validations: 
       required: true
   - type: textarea
