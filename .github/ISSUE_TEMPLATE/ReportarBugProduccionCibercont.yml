@@ -1,7 +1,7 @@
 name: Reportar Bug Produccion
 description: Formulario  Reportar Bug en produccion
 title: "BUG#PRODUCCION#  "
-labels: ["bug: production"]
+labels: ["duplicate"]
 body: 
 
   - type: dropdown
