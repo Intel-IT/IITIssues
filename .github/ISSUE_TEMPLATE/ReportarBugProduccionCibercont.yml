@@ -1,4 +1,4 @@
-name: Reportar Bug Produccion
+name: "🐞 Bug Report"
 description: Formulario  Reportar Bug en produccion
 title: "BUG#PRODUCCION#"
 labels: ["bug: production"]
