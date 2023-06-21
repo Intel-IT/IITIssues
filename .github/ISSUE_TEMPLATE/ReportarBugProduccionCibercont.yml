@@ -57,7 +57,13 @@ body:
       required: false
 
 
-
+ - type: input
+    id: backups
+    attributes:
+      label: backups
+      placeholder: Agregue una copia de la base de datos.
+    validations:
+      required: false
 
       
   - type: textarea
