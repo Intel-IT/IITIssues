@@ -1,7 +1,7 @@
 name: ❗ Informe de errores en Testing
-description: Formulario para Reportar 💀 Bugs en produccion  
-title: "BUG#REVISION#"
-labels: ["bug revision"]
+description: Formulario para Reportar 💀 pruebas incorrectas o faltantes.  
+title: "BUG#TEST#"
+labels: ["bug; test"]
 body: 
       
   - type: textarea
@@ -22,7 +22,7 @@ body:
                    3. Desplácese hacia abajo hasta '....'
                    4. Ver error
     validations: 
-      required: false
+      required: true
       
   - type: textarea
     id: Comportamientoesperado
@@ -30,7 +30,7 @@ body:
       label: Comportamiento esperado      
       placeholder: Una descripción clara y concisa de lo que esperaba que sucediera.     
     validations:
-      required: false
+      required: true
       
   - type: textarea
     id: Informacionadicional
