@@ -4,23 +4,6 @@ title: "BUG#PRODUCCION#  "
 labels: ["bug"]
 body: 
 
-  - type: dropdown
-    id: PersonaDeContacto
-    attributes:
-      label: Persona de contacto
-      multiple: true
-      description: Quien reporta el Bug
-      options:
-        - TEO
-        - EPIFANIA
-        - MARI
-        - LUIS
-        - CRIS
-        - DANIEL
-        - DAVID
-        - EDITH
-    validations:
-      required: true
       
   - type: dropdown
     id: Personaasignada
