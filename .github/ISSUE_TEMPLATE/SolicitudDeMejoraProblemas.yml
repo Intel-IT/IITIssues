@@ -36,15 +36,7 @@ body:
       placeholder:  Proporcione una descripción detallada del cambio o adición que está proponiendo.
     validations: 
       required: true
-  - type: textarea
-    id: contexto
-    attributes:
-      label: Contexto
-      placeholder:  |
-                   - ¿Por qué es importante este cambio para el cliente CIBERCONT o usted?.
-                   - ¿Cómo puede beneficiar a otros clientes?.
-    validations: 
-      required: true
+
   - type: textarea
     id: posibleImplementacion
     attributes:
