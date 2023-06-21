@@ -1,4 +1,4 @@
-name: ❌ Informe de errores <$today:MM/dd/yyyy>
+name: ❌ Informe de errores '<$today:MM/dd/yyyy>'
 description: Formulario para Reportar 💀 Bugs en produccion
 title: "BUG#PRODUCCION#"
 labels: ["bug: production"]
