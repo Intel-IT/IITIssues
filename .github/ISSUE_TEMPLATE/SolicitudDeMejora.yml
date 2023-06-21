@@ -1,0 +1,90 @@
+name: 🆕 Sugiera una mejora para este proyecto
+description: Formulario para sugerir una idea, una mejora,Mejorar una característica existente o una posible nueva función para este proyecto.:mask: 
+title: "BUG#PRODUCCION"
+labels: ["bug: production"]
+body: 
+
+  - type: dropdown
+    id: Software
+    attributes:
+      label: Software 
+      multiple: false
+      options:		
+      - Contabilidad Escritorio
+      - Facturador Escritorio
+      - Colegios Escritorio
+      - Restaurantes Escritorio
+      - Pasajeros Escritorio
+      - Encomiendas Escritorio        
+      - Facturador Web
+      - Pasajeros Web
+      - Encomiendas Web
+                
+    validations:
+      required: true      
+  - type: textarea
+    id: descripcion
+    attributes:
+      label: Descripción.
+      placeholder:  Una descripción clara y concisa de lo que es el error. 
+    validations: 
+      required: true
+  - type: textarea
+    id: reproducir
+    attributes:
+      label: Pasos para reproducir el comportamiento
+      placeholder:  |
+                   1. Ir a '...'
+                   2. Haga clic en '....'
+                   3. Desplácese hacia abajo hasta '....'
+                   4. Ver error
+    validations: 
+      required: true
+  - type: textarea
+    id: Comportamientoesperado
+    attributes:
+      label: Comportamiento esperado      
+      placeholder: Una descripción clara y concisa de lo que esperaba que sucediera.     
+    validations:
+      required: true
+
+  - type: textarea
+    id: Screenshots
+    attributes:
+      label: Screenshots - Media      
+      placeholder: Agregue capturas de pantalla o videos para ayudar a explicar su problema.
+    validations:
+      required: false
+
+
+  - type: input
+    id: backup
+    attributes:
+      label: Copia de la base de datos
+      placeholder: Agregue una copia de la base de datos.
+    validations:
+      required: false
+
+      
+  - type: textarea
+    id: Informacionadicional
+    attributes:
+      label: Informacion adicional
+      placeholder: |
+                  - SO: [p. ej. iOS]
+                  - Navegador [p. ej. cromo, safari]
+                  - Versión [p. ej. 22]
+                  - Dispositivo: [p. ej. iphone 6]
+                  - SO: [p. ej. iOS8.1]
+                  - Navegador [p. ej. navegador de valores, safari]
+                  - Versión [p. ej. 22]
+    validations:
+      required: false
+  - type: input
+    id: ContextoadicionaL
+    attributes:
+      label: Contexto adicionaL
+      placeholder: Agregue cualquier otro contexto sobre el problema aquí.
+    validations:
+      required: false
+      
