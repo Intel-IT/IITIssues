@@ -51,8 +51,8 @@ body:
   - type: textarea
     id: Screenshots
     attributes:
-      label: Screenshots      
-      placeholder: Agregue capturas de pantalla para ayudar a explicar su problema.
+      label: Screenshots - media      
+      placeholder: Agregue capturas de pantalla o videos para ayudar a explicar su problema.
     validations:
       required: false
 
