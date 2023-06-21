@@ -26,7 +26,7 @@ body:
     id: descripcion
     attributes:
       label: Descripción.
-      placeholder:  Proporcione una descripción detallada del cambio o adición que está proponiendo 
+      placeholder:  Proporcione una descripción detallada del cambio o adición que está proponiendo.
     validations: 
       required: true
   - type: textarea
@@ -34,15 +34,15 @@ body:
     attributes:
       label: Contexto
       placeholder:  |
-                   - ¿Por qué es importante este cambio para el cliente CIBERCONT o usted?
-                   - ¿Cómo puede beneficiar a otros clientes?
+                   - ¿Por qué es importante este cambio para el cliente CIBERCONT o usted?.
+                   - ¿Cómo puede beneficiar a otros clientes?.
     validations: 
       required: true
   - type: textarea
-    id: Comportamientoesperado
+    id: posibleImplementacion
     attributes:
-      label: Comportamiento esperado      
-      placeholder: Una descripción clara y concisa de lo que esperaba que sucediera.     
+      label: Posible Implementación
+      placeholder: sugiera una idea para implementar la adición o el cambio.
     validations:
       required: true
 
