@@ -25,8 +25,9 @@ body:
   - type: textarea
     id: error
     attributes:
-      label: ¿Su solicitud de mejora está relacionada con un problema? Por favor describa el problema.
-      placeholder:  Una descripción clara y concisa de cuál es el problema. Ejem. Siempre me siento frustrado cuando [...] 
+      label: Problematica      
+      placeholder:  ¿Su solicitud de mejora está relacionada con un problema? Por favor describa el problema.
+                    Una descripción clara y concisa de cuál es el problema. Ejem. Siempre me siento frustrado cuando [...] 
     validations: 
       required: true
   - type: textarea
