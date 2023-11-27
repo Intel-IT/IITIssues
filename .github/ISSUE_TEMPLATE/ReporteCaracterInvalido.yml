@@ -24,7 +24,7 @@ body:
   - type: input
     id: xml
     attributes:
-      label: xml del comprobante.
+      label: XML del comprobante.
       placeholder: Agregue xml del comprobante.
     validations:
       required: true
